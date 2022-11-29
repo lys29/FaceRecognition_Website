@@ -1,0 +1,52 @@
+.container {
+    background-color: white;
+}
+
+.con {
+    background-color: #523592;
+    align-items: stretch;
+    border:250px solid #523592;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100px;
+    position:relative;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.container h1 {
+    color: #903FB7;
+    font-size: 128px;
+    line-height: 15px;
+    word-spacing: -25px;
+    font-family: inter, sans-serif;
+}
+
+.container span {
+    color: #67CDA2;
+    font-size:40px;
+}
+
+.container span1 {
+    font-size: 40px;
+}
+
+.container Button {
+    width: 266px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #67CDA2;
+    color: white;
+    height:87px;
+    font-size: 36px;
+}
+
+.container p {
+    font-size: 20px;
+    font-family: inter, sans-serif;
+}
+
+.t Button {
+    background-color: transparent;
+    margin-top: -10px;
+}

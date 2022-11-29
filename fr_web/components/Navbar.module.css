@@ -1,0 +1,61 @@
+.container {
+    background-color: #3A1E78;
+    align-items: stretch;
+    border:200px solid #3A1E78;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    border-width: 0ch;
+    list-style: none;
+}
+
+.container ul {
+    list-style: none;
+    display:flex;
+    align-items: center;
+    float: right;
+    color: white;
+}
+
+.container Button {
+    color: white;
+    font-size: 16px;
+    font-family: Poppins,sans-serif;
+}
+
+.container h6 {
+    color: #903FB7;
+    font-size: 25px;
+    line-height: 15px;
+    word-spacing: -2px;
+    font-family: inter, sans-serif;
+    margin-top: auto;
+}
+
+.container span {
+    color: #67CDA2;
+    font-size:16px;
+}
+
+.container span1 {
+    font-size: 16px;
+}
+
+.main {
+    margin-right: 200px;
+}
+
+.hover {
+    display: flex;
+    margin-left: 400px;
+}
+
+.sign Button {
+    width: 113px;
+    height: 41px;
+    background-color: #67CDA2;
+    color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
