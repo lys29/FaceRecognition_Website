@@ -10,6 +10,7 @@ const Navbar = () => {
                     <a href="/Home"><div className={styles.main}><Button variant='primary'><h6>Face <span>recognition</span> <br></br> <span1>Attendance</span1> <span>Checker</span></h6></Button></div></a>
                     <div className={styles.hover}>
                         <a href="/Start1"><Button variant='secondary'>Start</Button></a>
+                        <a href="/Stud"><Button variant='secondary'>Student</Button></a>
                         <a href="/Us"><Button variant='secondary'>Contact Us</Button></a>
                         <a href="/About"><Button variant='secondary'>About Us</Button></a>
                         <div className={styles.sign}><a href="/Sign"><Button variant='secondary'>Sign Up</Button></a></div>
