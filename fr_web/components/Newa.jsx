@@ -30,7 +30,7 @@ const Newa = () => {
                         <div>
                             <ul>
                                 <div className={styles.log}><a href='/Log'><Button variant='primary'>Log In instead</Button></a></div>
-                                <div className={styles.prior}><Button variant='primary'>Submit</Button></div>
+                                <div className={styles.prior}><a href='/Log'><Button variant='primary'>Submit</Button></a></div>
                             </ul>
                         </div>
                     </div>

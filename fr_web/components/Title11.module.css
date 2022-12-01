@@ -1,21 +1,17 @@
 .container {
     background-color: white;
+    margin-top: -400px;
 }
 
 .con {
     background-color: #523592;
-    align-items: stretch;
-    border:250px solid #523592;
+    border:200px solid #523592;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:100px;
+    height:550px;
     position:relative;
     border-radius: 0px 0px 20px 20px;
-}
-
-.con1 {
-    margin-left: 250px;
 }
 
 .container h1 {
@@ -54,4 +50,10 @@
     background-color: transparent;
     margin-left: -6px;
     font-size: 20px;
+}
+
+.right img {
+    width: 610px;
+    height: 490px;
+    margin-right: -50px;
 }

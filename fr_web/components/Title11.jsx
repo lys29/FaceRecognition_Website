@@ -1,8 +1,8 @@
-import styles from './Title.module.css';
+import styles from './Title11.module.css';
 import Button from './Button.jsx';
 import Title2 from '../components/Title2.jsx';
 
-const Title = () => {
+const Title11 = () => {
     return (
         <div>
             <div className={styles.container}>
@@ -12,8 +12,7 @@ const Title = () => {
                     </div>
 
                     <div className={styles.right}>
-                        <a href='/Sign'><Button variant='primary'>Get Started</Button></a>
-                        <div className={styles.t}><a href='/'><Button variant='secondary'>Take Tutorial</Button></a></div>
+                        <img src='/images/mark.png'/>
                     </div>
                 </div>
             </div>
@@ -24,4 +23,4 @@ const Title = () => {
     );
 };
 
-export default Title;
+export default Title11;

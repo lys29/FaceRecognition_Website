@@ -1,7 +1,7 @@
-import styles from './Aboutus.module.css';
+import styles from './Aboutusl.module.css';
 import Title2 from './Title2';
 
-const Aboutus  = () => {
+const Aboutusl  = () => {
     return (
         <div>
             <div className={styles.container}>
@@ -27,4 +27,4 @@ const Aboutus  = () => {
     )
 }
 
-export default Aboutus;
+export default Aboutusl;

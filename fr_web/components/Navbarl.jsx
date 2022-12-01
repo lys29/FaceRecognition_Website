@@ -7,15 +7,27 @@ const Navbarl = () => {
         <div className={styles.container}>
             <div>
                 <ul>
-                    <a href="/Home"><div className={styles.main}><Button variant='primary'><h6>Face <span>recognition</span> <br></br> <span1>Attendance</span1> <span>Checker</span></h6></Button></div></a>
+                    <a href="/Home1"><div className={styles.main}><Button variant='primary'><h6>Face <span>recognition</span> <br></br> <span1>Attendance</span1> <span>Checker</span></h6></Button></div></a>
                     <div className={styles.hover}>
-                        <a href="/Start1"><Button variant='secondary'>Start</Button></a>
-                        <a href="/Stud"><Button variant='secondary'>Student</Button></a>
-                        <a href="/Us"><Button variant='secondary'>Contact Us</Button></a>
-                        <a href="/About"><Button variant='secondary'>About Us</Button></a>
+                        <div className={styles.dropdown}>
+                            <Button variant='secondary'>Dashboard</Button>
+                                <div className={styles.content}>
+                                    <a href='/Cam'><Button variant='primary'>Camera</Button></a>
+                                    <a href='/Nstart'><Button variant='primary'>Attendance</Button></a>
+                                    <a href='/Add'><Button variant='primary'>Add Students</Button></a>
+                                    <a href='/Up'><Button variant='primary'>Update Students</Button></a>
+                                    <a href='/Rf'><Button variant='primary'>Add Face Recognition</Button></a>
+                                </div>
+                        </div>
+                        <a href="/Us1"><Button variant='secondary'>Contact Us</Button></a>
+                        <a href="/About1"><Button variant='secondary'>About Us</Button></a>
                         <div>
-                            <p>Welcome, User!</p>
-                            <div className={styles.out}><a href="/Home"><Button variant='primary'>Log out</Button></a></div>
+                            <div className={styles.dropdown}>
+                                <Button variant='secondary'>Welcome, User!</Button>
+                                    <div className={styles.content1}>
+                                        <a href='/Home'><Button variant='primary'>Log out</Button></a>
+                                    </div>
+                        </div>
                         </div>
                     </div>
                 </ul>

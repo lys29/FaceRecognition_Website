@@ -13,7 +13,7 @@ const Login = () => {
                     <div>
                         <input type="Text" placeholder="Password"></input>
                     </div>
-                    <a href='/Nstart'><Button variant='primary'>Log in</Button></a>
+                    <a href='/Home1'><Button variant='primary'>Log in</Button></a>
                 </div>
             </div>
             <div className={styles.right}>

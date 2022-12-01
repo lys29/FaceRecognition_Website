@@ -1,8 +1,8 @@
-import styles from './Title.module.css';
+import styles from './Title1.module.css';
 import Button from './Button.jsx';
 import Title2 from '../components/Title2.jsx';
 
-const Title = () => {
+const Title1 = () => {
     return (
         <div>
             <div className={styles.container}>
@@ -24,4 +24,4 @@ const Title = () => {
     );
 };
 
-export default Title;
+export default Title1;
