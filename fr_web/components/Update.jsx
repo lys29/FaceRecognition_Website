@@ -2,6 +2,7 @@ import styles from './Update.module.css';
 import Button from './Button';
 import Navbarl from './Navbarl.jsx';
 
+
 const Update = () =>{
     return (
         <div>

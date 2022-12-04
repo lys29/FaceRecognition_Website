@@ -1,6 +1,7 @@
 import styles from './Title1.module.css';
 import Button from './Button.jsx';
 import Title2 from '../components/Title2.jsx';
+import Link from 'next/link';
 
 const Title1 = () => {
     return (
@@ -12,8 +13,8 @@ const Title1 = () => {
                     </div>
 
                     <div className={styles.right}>
-                        <a href='/Sign'><Button variant='primary'>Get Started</Button></a>
-                        <div className={styles.t}><a href='/'><Button variant='secondary'>Take Tutorial</Button></a></div>
+                        <Link href='/Sign'><Button variant='primary'>Get Started</Button></Link>
+                        <div className={styles.t}><Link href='/'><Button variant='secondary'>Take Tutorial</Button></Link></div>
                     </div>
                 </div>
             </div>

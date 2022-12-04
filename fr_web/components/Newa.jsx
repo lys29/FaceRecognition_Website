@@ -1,5 +1,6 @@
 import styles from './Newa.module.css';
 import Button from './Button.jsx';
+import Link from 'next/link';
 
 const Newa = () => {
     return (
@@ -29,8 +30,8 @@ const Newa = () => {
                         </div>
                         <div>
                             <ul>
-                                <div className={styles.log}><a href='/Log'><Button variant='primary'>Log In instead</Button></a></div>
-                                <div className={styles.prior}><a href='/Log'><Button variant='primary'>Submit</Button></a></div>
+                                <div className={styles.log}><Link href='/Log'><Button variant='primary'>Log In instead</Button></Link></div>
+                                <div className={styles.prior}><Link href='/Log'><Button variant='primary'>Submit</Button></Link></div>
                             </ul>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 import styles from './Login.module.css';
 import Button from './Button.jsx';
+import Link from 'next/link';
 
 const Login = () => {
     return (
@@ -13,7 +14,9 @@ const Login = () => {
                     <div>
                         <input type="Text" placeholder="Password"></input>
                     </div>
-                    <a href='/Home1'><Button variant='primary'>Log in</Button></a>
+                    <div>
+                        <Link href='/Home1'><Button>Log in</Button></Link>
+                    </div>
                 </div>
             </div>
             <div className={styles.right}>

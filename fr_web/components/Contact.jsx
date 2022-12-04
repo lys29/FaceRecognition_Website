@@ -1,4 +1,5 @@
 import styles from './Contact.module.css';
+import Link from 'next/link';
 
 const Contact = () => {
     return (
@@ -10,7 +11,7 @@ const Contact = () => {
                         <div className={styles.spread}><img src='/images/phone.png'/><h6>+9220505743</h6></div>
                         <div className={styles.spread}><img src='/images/lope.png'/><h6>JCRED@gmail.com</h6></div>
                         <div className={styles.spread}><img src='/images/loc.png'/><h6>8XW8+2CH, Carlos Trinidad Ave, <br></br>Salawag, Dasmarinas, Cavite</h6></div>
-                        <div className={styles.logo}><a href='/Home'><img src='/images/Logo.png'/></a></div>
+                        <div className={styles.logo}><Link href='/Home'><img src='/images/Logo.png'/></Link></div>
                     </div>
                 </div>
                 <div className={styles.right}>

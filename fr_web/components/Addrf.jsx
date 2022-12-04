@@ -1,6 +1,7 @@
 import styles from './Addrf.module.css';
 import Button from './Button.jsx';
 import Navbarl from './Navbarl.jsx';
+import Link from 'next/link';
 
 const Addrf = () =>{
     return (
@@ -29,7 +30,7 @@ const Addrf = () =>{
                         </div>
                         <div className={styles.spread}>
                             <Button variant='secondary'>Add</Button>
-                            <div className={styles.spread1}><a href='/Rf1'><Button variant='secondary'>Update</Button></a></div>
+                            <div className={styles.spread1}><Link href='/Rf1'><Button variant='secondary'>Update</Button></Link></div>
                         </div>
                     </div>
                 </div>
