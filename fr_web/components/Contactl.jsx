@@ -1,7 +1,17 @@
 import styles from './Contactl.module.css';
 import Link from 'next/link';
+import Swal from "sweetalert2";
 
 const Contactl = () => {
+    const Send = () => {
+        Swal.fire({
+            icon: "warning",
+            title:"Send a Message",
+            text: "Are you sure you want to send the following information?",
+            showDenyButton: true,
+            confirmButtonText: 'Yes',
+        })
+    }
     return (
         <div className={styles.container}>
                 <div className={styles.left}>
@@ -23,6 +33,7 @@ const Contactl = () => {
                             <input type="Email"></input>
                             <h5>Message</h5>
                             <textarea id='Message' name='Message' rows='3' cols='40' placeholder='Write your message'></textarea>
+                            <button onClick={Send}>Send Message</button>
                         </div>
                         <div className={styles.right2}>
                             <h5>Last Name</h5>
@@ -30,6 +41,7 @@ const Contactl = () => {
                             <h5>Phone</h5>
                             <input type="Num"></input>
                         </div>
+
                     </div>
                 </div>
         </div>

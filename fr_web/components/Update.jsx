@@ -1,9 +1,26 @@
 import styles from './Update.module.css';
-import Button from './Button';
 import Navbarl from './Navbarl.jsx';
-
+import Swal from "sweetalert2";
 
 const Update = () =>{
+    const Submit = () => {
+        Swal.fire({
+            icon: "success",
+            title: "SUCCESSFULLY UPDATED!",
+            text: "Your changes have been succcessfully updated",
+            showConfirmButton: true
+        })
+    }
+
+    const Clear = () => {
+        Swal.fire({
+            icon: "warning",
+            title:"Clear!",
+            text: "Are you sure you want to clear all inputed data?",
+            showDenyButton: true,
+            confirmButtonText: 'Yes',
+        })
+    }
     return (
         <div>
             <div>
@@ -61,10 +78,10 @@ const Update = () =>{
                             <input type='rightC'></input>
                         </div>
                         <img src='/images/simage.png'/>
-                        <div className={styles.upload}><Button variant='primary'>Upload Image</Button></div>
+                        <div className={styles.upload}><button>Upload Image</button></div>
                         <div className={styles.fix}>
-                            <div className={styles.clear}><Button variant='secondary'>Clear</Button></div>
-                            <div className={styles.Add}><Button variant='secondary'>Update</Button></div>
+                            <div className={styles.clear}><button onClick={Clear}>Clear</button></div>
+                            <div className={styles.Add}><button onClick={Submit}>Update</button></div>
                         </div>
                     </div>
                 </div>

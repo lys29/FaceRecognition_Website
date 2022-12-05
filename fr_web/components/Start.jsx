@@ -1,7 +1,16 @@
 import styles from './Start.module.css';
-import Button from './Button.jsx';
+import Swal from "sweetalert2";
 
 const Start = () =>{
+    const Print = () => {
+        Swal.fire({
+            icon: "warning",
+            title:"SUCCESSFULLY SAVE",
+            text: "Do you want to have a copy?",
+            showDenyButton: true,
+            confirmButtonText: 'Yes',
+        })
+    }
     return(
         <div>
             <div className={styles.container}>
@@ -12,7 +21,7 @@ const Start = () =>{
                     <h4>BET-COET-4A</h4>
                     <h4>Date: 09 Dec 2022</h4>
                     <h4>Time: 09:00 AM - 12:00 NN</h4>
-                    <Button variant='primary'><strong>Save</strong></Button>
+                    <button><strong onClick={Print}>Save</strong></button>
                     </center>
                 </div>
                 <div className={styles.right}>

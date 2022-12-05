@@ -1,6 +1,7 @@
 import styles from './Newa.module.css';
-import Button from './Button.jsx';
 import Link from 'next/link';
+import React from 'react';
+import Button from './Button.jsx';
 
 const Newa = () => {
     return (
@@ -23,15 +24,12 @@ const Newa = () => {
                             <input type="Text" placeholder="Confirm Password"></input>
                         </div>
                         <div>
-                            <input type="Text" placeholder="Search"></input>
-                        </div>
-                        <div>
                             <input type="Day" placeholder="Birthday 00/00/0000"></input>
                         </div>
                         <div>
                             <ul>
                                 <div className={styles.log}><Link href='/Log'><Button variant='primary'>Log In instead</Button></Link></div>
-                                <div className={styles.prior}><Link href='/Log'><Button variant='primary'>Submit</Button></Link></div>
+                                <div className={styles.prior}><Link href='/Log'><Button>Submit</Button></Link></div>
                             </ul>
                         </div>
                     </div>
@@ -45,5 +43,4 @@ const Newa = () => {
         </div>
     );
 };
-
 export default Newa;

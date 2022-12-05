@@ -93,3 +93,14 @@
 .logo {
     margin-top: 350px;
 }
+
+.right1 button {
+    font-size: 24px;
+    width: 260px;
+    height: 76px;
+    border-radius: 17px;
+    background-color: #523592;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 400px;
+}

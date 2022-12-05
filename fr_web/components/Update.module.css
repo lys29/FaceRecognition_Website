@@ -97,6 +97,7 @@
     color: white;
     margin-top: 10px;
     margin-left: 200px;
+    cursor: pointer;
 }
 
 .fix Button {
@@ -107,6 +108,7 @@
     font-size: 20px;
     color: white;
     margin-top: 200px;
+    cursor: pointer;
 }
 
 .clear Button {
