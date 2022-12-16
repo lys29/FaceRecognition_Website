@@ -5,8 +5,8 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                main: resolve(__dirname, "App.js"),
-                about: resolve(__dirname, "About.js"),
+                App: resolve(__dirname, "App.js"),
+                About: resolve(__dirname, "About.js"),
             }
         }
     }
