@@ -1,7 +1,7 @@
 import Aboutus from './components/Aboutus.jsx';
 import Nav from './components/Nav.jsx';
 
-const About = () => {
+function About () {
     return (
         <div>
             <Nav />
