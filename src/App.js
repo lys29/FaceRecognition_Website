@@ -1,12 +1,12 @@
 import './App.css';
 import Nav from "./components/Nav.jsx";
-import Title from "./components/Title.jsx";
+import Contactl from './components/Contactl';
 
 function App() {
   return (
     <div>
       <Nav />
-      <Title />
+      <Contactl />
     </div>
   );
 }
