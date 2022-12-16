@@ -1,0 +1,38 @@
+.container {
+    background-color: #523592;
+    align-items: stretch;
+    border:250px solid #523592;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:650px;
+    position:relative;
+    margin-top: -400px;
+}
+
+.left {
+    margin-left: -100px;
+}
+
+.left1 pre {
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    line-height:  30px;
+}
+
+.left1 {
+    margin-top: 10px;
+}
+
+.left h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.tab {
+    margin-left: 50px;
+}

@@ -1,0 +1,86 @@
+.container {
+    background-color: #523592;
+    align-items: stretch;
+    border:250px solid #523592;
+    align-items: center;
+    justify-content: space-between;
+    height:1000px;
+    position:relative;    
+    margin-top: -400px;
+}
+
+.con {
+    margin-top: -230px;
+    margin-left: -150px;
+    display: flex;
+}
+
+.left h1{
+    font-size: 40px;
+}
+
+.spread {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.spread input {
+    background-color: white;
+    width: 360px;
+    height: 33px;
+    font-size: 26px;
+    color: black;
+    margin-left: 20px;
+}
+
+.left ul {
+    border: 1px solid black;
+    height: 514px;
+    width: 527px;
+    margin-left: 25px;
+}
+
+.spread Button{
+    height: 49px;
+    width: 130px;
+    color: white;
+    background-color: #67CDA2;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-left: 90px;
+    justify-content: space-between;
+}
+
+.spread1 Button {
+    margin-right: 90px;
+}
+
+.inside{
+    margin-top: 100px;
+}
+
+.inside pre {
+    font-size: 26px;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+
+.inside img {
+    margin-top: -70px;
+}
+
+.right ul {
+    border: 1px solid black;
+    height: 585px;
+    width: 599px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
+.right img {
+    margin-top: 30px;
+    margin-left: -20px;
+}

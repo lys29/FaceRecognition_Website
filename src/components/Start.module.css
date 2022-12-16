@@ -1,0 +1,121 @@
+.container {
+    background-color: #523592;
+    border:100px solid #523592;
+    align-items: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    margin-top: -400px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.left Button {
+    background-color: #67CDA2;
+    width: 145px;
+    height: 42px;
+    border-radius: 8px;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+.right {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.left {
+    margin-top: -150px;
+}
+
+.report h1 {
+    font-size: 20px;
+    color: black;
+}
+
+.report {
+    width: 237px;
+    background: #d9d9d9;
+    text-align: center;
+    height: 52px;
+}
+  
+.report ul {
+    margin: 0;
+    padding: 0;
+}
+  
+.report ul li {
+    color: black;
+    font-size: 20px;
+}
+
+.bar {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #212759;
+    display: flex;
+    width: 787px;
+    height: 40px;
+}
+  
+.bar li {
+    list-style-type: none;
+    display: inline-block;
+    width: 40%;
+    color: white;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.attend {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #A3A3A3;
+    display: flex;
+    width: 787px;
+    height: 40px;
+}
+  
+.attend li {
+    list-style-type: none;
+    display: inline-block;
+    width: 40%;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.attend1 {
+    margin: 0;
+    padding: 10px 0;
+    background-color: white;
+    display: flex;
+    width: 787px;
+    height: 40px;
+}
+  
+.attend1 li {
+    list-style-type: none;
+    display: inline-block;
+    width: 40%;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.board {
+    border: 30px solid #D7D7D7;
+}

@@ -1,0 +1,59 @@
+.container {
+    background-color: white;
+    margin-top: -400px;
+}
+
+.con {
+    background-color: #523592;
+    border:200px solid #523592;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:550px;
+    position:relative;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.container h1 {
+    color: #903FB7;
+    font-size: 128px;
+    line-height: 15px;
+    word-spacing: -25px;
+    font-family: inter, sans-serif;
+}
+
+.container span {
+    color: #67CDA2;
+    font-size:40px;
+}
+
+.container span1 {
+    font-size: 40px;
+}
+
+.container Button {
+    width: 256px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #67CDA2;
+    color: white;
+    height:91px;
+    font-size: 30px;
+}
+
+.container p {
+    font-size: 20px;
+    font-family: inter, sans-serif;
+}
+
+.t Button {
+    background-color: transparent;
+    margin-left: -6px;
+    font-size: 20px;
+}
+
+.right img {
+    width: 610px;
+    height: 490px;
+    margin-right: -50px;
+}

@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+}
+
+.left {
+    float: left;
+    background-color: white;
+    background-image: url('/images/info.png');
+    background-repeat: no-repeat;
+}
+
+.left1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 636px;
+    height:920px;
+}
+
+.right{
+    float: right;
+    background-color: white;
+    color: black;
+    width: 895px;
+    display: flex;
+}
+
+.right1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.right2 {
+    margin-left: -250px;
+}
+
+.container input {
+    border: 0px;
+    color: black;
+    font-size: 14px;
+    border-bottom: 3px solid #CACACA;
+    width: 285px;
+    background-color: transparent;
+}
+
+.left h5 {
+    font-size: 36px;
+}
+
+.left p {
+    font-size: 20px;
+}
+
+.left h6 {
+    font-size: 24px;
+}
+
+.right h5 {
+    font-size: 30px;
+    color: #523592;
+}
+
+.right textarea {
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 2;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px white;
+    background-color: white;
+    color: black;
+    border: 0px;
+    border-bottom: 3px solid #CACACA;
+    width: 661px;
+}
+
+.spread{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -80px;
+}
+
+.spread img {
+    width: 31px;
+    height: 31px;
+    margin-right: 20px;
+}
+
+.logo {
+    margin-top: 350px;
+}
+
+.right1 button {
+    font-size: 24px;
+    width: 260px;
+    height: 76px;
+    border-radius: 17px;
+    background-color: #523592;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 400px;
+}

@@ -1,0 +1,108 @@
+.container {
+    background-color: transparent;
+    align-items: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:700px;
+    margin-top: 160px;
+}
+
+.left {
+    float: left;
+    background-color: white;
+    background-image: url('/images/create.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1024px;
+    width: 636px;
+}
+
+.right{
+    float: right;
+    background-color: white;
+    border:53px solid white;
+    height: 1024px;
+    width: 885px;
+}
+
+.right1 {
+    margin-top: 100px;
+}
+
+.container input[type=text] {
+    width: 539px;
+    border: 0px;
+    border-bottom: 5px solid #67CDA2;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+
+.container input[type=FName] {
+    width: 252px;
+    border: 0px;
+    border-bottom: 5px solid #67CDA2;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    margin-right: 35px;
+}
+
+.container input[type=LName] {
+    width: 252px;
+    border: 0px;
+    border-bottom: 5px solid #67CDA2;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+
+.container input[type=Day] {
+    width: 334px;
+    border: 0px;
+    border-bottom: 5px solid #67CDA2;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+
+.container input {
+    background-color: transparent;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.container ul {
+    display:flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.left h1{
+    font-size: 48px;
+}
+
+.left1 {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.prior Button {
+    width: 127px;
+    height: 53px;
+    border-radius: 20px;
+    background-color: #903FB7;
+    color: white;
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.log Button {
+    width: 227px;
+    height: 37px;
+    font-size: 28px;
+    background-color: transparent;
+    margin-left: -50px;
+}
