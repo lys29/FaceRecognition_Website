@@ -1,6 +1,7 @@
 import styles from './Title.module.css';
 import Button from './Button.jsx';
-import Title2 from '../components/Title2.jsx';
+// import Title2 from '../components/Title2.jsx';
+import { Link } from 'react-router-dom';
 
 const Title = () => {
     return (
@@ -12,14 +13,12 @@ const Title = () => {
                     </div>
 
                     <div className={styles.right}>
-                        <a href='/Sign'><Button variant='primary'>Get Started</Button></a>
+                        <Link to='/signup'><Button variant='primary'>Get Started</Button></Link>
                         <div className={styles.t}><a href='/'><Button variant='secondary'>Take Tutorial</Button></a></div>
                     </div>
                 </div>
             </div>
-            <div>
-                <Title2 />
-            </div>
+            
         </div>
     );
 };

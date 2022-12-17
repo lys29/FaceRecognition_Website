@@ -1,8 +1,14 @@
-import styles from './Contactl.module.css';
+import styles from './Contact.module.css';
 import Swal from "sweetalert2";
+import Phone from '../images/phone.png';
+import Lope from '../images/lope.png';
+import Loc from '../images/loc.png';
+import LogoPic from '../images/Logo.png'
+import { Link } from 'react-router-dom';
 
-const Contactl = () => {
-    const Send = () => {
+
+const ContactUs = () => {
+    const Send = () => { 
         Swal.fire({
             icon: "warning",
             title:"Send a Message",
@@ -17,10 +23,20 @@ const Contactl = () => {
                     <div className={styles.left1}>
                         <h5>Contact Information</h5>
                         <p>Fill up the form and out team will get back to <br></br>you within 24 hours.</p>
-                        <div className={styles.spread}><img src='/images/phone.png'/><h6>+9220505743</h6></div>
-                        <div className={styles.spread}><img src='/images/lope.png'/><h6>JCRED@gmail.com</h6></div>
-                        <div className={styles.spread}><img src='/images/loc.png'/><h6>8XW8+2CH, Carlos Trinidad Ave, <br></br>Salawag, Dasmarinas, Cavite</h6></div>
-                        <div className={styles.logo}><a href='/Home1'><img src='/images/Logo.png'/></a></div>
+                        <div className={styles.spread}>
+                            <img src={Phone}/><h6>+9220505743</h6>
+                        </div>
+                        <div className={styles.spread}>
+                            <img src= {Lope} /><h6>JCRED@gmail.com</h6>
+                        </div>
+                        <div className={styles.spread}>
+                            <img src= {Loc} /><h6>8XW8+2CH, Carlos Trinidad Ave, <br></br>Salawag, Dasmarinas, Cavite</h6>
+                        </div>
+                        <div className={styles.logo}>
+                            <Link to='/home'>
+                                <img src= {LogoPic}/>
+                            </Link>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.right}>
@@ -40,11 +56,10 @@ const Contactl = () => {
                             <h5>Phone</h5>
                             <input type="Num"></input>
                         </div>
-
                     </div>
                 </div>
         </div>
     )
 }
 
-export default Contactl;
+export default ContactUs;

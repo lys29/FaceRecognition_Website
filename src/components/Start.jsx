@@ -1,6 +1,6 @@
 import styles from './Start.module.css';
 import Swal from "sweetalert2";
-
+import ClassroomPic from '../images/classroom.png';
 const Start = () =>{
     const Print = () => {
         Swal.fire({
@@ -17,7 +17,7 @@ const Start = () =>{
                 <div className={styles.left}>
                     <center>
                     <h1>Classroom</h1>
-                    <img src='/images/classroom.png'/>
+                    <img src= {ClassroomPic} />
                     <h4>BET-COET-4A</h4>
                     <h4>Date: 09 Dec 2022</h4>
                     <h4>Time: 09:00 AM - 12:00 NN</h4>

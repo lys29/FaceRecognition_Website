@@ -1,16 +1,12 @@
 import styles from './Camera.module.css';
-import Navbarl from './Navbarl.jsx';
-
+import CameraSample from '../images/camera.png';
 const Camera = () =>{
     return (
         <div>
-            <div>
-                <Navbarl />
-            </div>
             <div className={styles.container}>
                 <div className={styles.con}>
                     <h1>Camera</h1>
-                    <img src='/images/camera.png'/>
+                    <img src= {CameraSample} />
                 </div>
             </div>
         </div>

@@ -1,6 +1,8 @@
 import styles from './Login.module.css';
 import Button from './Button.jsx';
-
+import NewAcountSidePic from '../images/Newa.png';
+import { Link } from 'react-router-dom';
+ 
 const Login = () => {
     return (
         <div className={styles.container}>
@@ -14,13 +16,14 @@ const Login = () => {
                         <input type="Text" placeholder="Password"></input>
                     </div>
                     <div>
-                        <a href='/Home1'><Button>Log in</Button></a>
+
+                        <Link to='/home'><Button>Log in</Button></Link>
                     </div>
                 </div>
             </div>
             <div className={styles.right}>
                 <div className={styles.right1}>
-                    <img src='/images/Newa.png'/>
+                    <img src= {NewAcountSidePic}/>
                 </div>
             </div>
         </div>

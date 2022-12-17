@@ -5,7 +5,7 @@
 .left {
     float: left;
     background-color: white;
-    background-image: url('/images/info.png');
+    background-image: url('../images/info.png');
     background-repeat: no-repeat;
 }
 

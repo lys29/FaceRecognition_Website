@@ -1,10 +1,11 @@
 import styles from './Aboutusl.module.css';
-import Title2 from './Title2';
+// import Title2 from './Title2';
+import AboutUs from "../images/aboutus.png";
 
 const Aboutusl  = () => {
-    return (
+    return ( 
         <div>
-            <div className={styles.container}>
+            <div className={styles.aboutcontainer}>
                 <div className={styles.left}>
                     <h1>About Us</h1>
                     <div className={styles.left1}>
@@ -17,11 +18,8 @@ const Aboutusl  = () => {
                     </div>
                 </div>
                 <div className={styles.right}>
-                    <img src='/images/aboutus.png'></img>
+                    <img src={AboutUs} alt='about us png'></img>
                 </div>
-            </div>
-            <div>
-                <Title2 />
             </div>
         </div>
     )

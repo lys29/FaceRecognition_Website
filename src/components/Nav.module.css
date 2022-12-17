@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+/* this one is for the home navbar- look for the jsx fle */
+
 .container {
     background-color: #3A1E78;
     align-items: stretch;

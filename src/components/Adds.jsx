@@ -1,7 +1,6 @@
 import styles from './Adds.module.css';
-import Navbarl from './Navbarl.jsx';
 import Swal from "sweetalert2";
-
+import SampleImage from '../images/simage.png';
 const Adds = () =>{
     const Add = () => {
         Swal.fire({
@@ -23,9 +22,6 @@ const Adds = () =>{
     }
     return (
         <div>
-            <div>
-                <Navbarl />
-            </div>
             <div className={styles.container}>
                 <div className={styles.con}>
                     <div className={styles.left}>
@@ -77,7 +73,7 @@ const Adds = () =>{
                             <p>Contact:</p>
                             <input type='rightC'></input>
                         </div>
-                        <img src='/images/simage.png'/>
+                        <img src= {SampleImage} />
                         <div className={styles.upload}><button variant='primary'>Upload Image</button></div>
                         <div className={styles.fix}>
                             <div className={styles.clear}><button onClick={Clear}>Clear</button></div>

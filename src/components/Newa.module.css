@@ -11,7 +11,7 @@
 .left {
     float: left;
     background-color: white;
-    background-image: url('/images/create.png');
+    background-image: url('../images/create.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 1024px;

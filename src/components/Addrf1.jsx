@@ -1,13 +1,12 @@
 import styles from './Addrf1.module.css';
 import Button from './Button.jsx';
-import Navbarl from './Navbarl.jsx';
+import CameraImage from '../images/cimage.png';
+import MultipleImages from '../images/multi.png';
+import { Link } from 'react-router-dom';
 
 const Addrf1 = () =>{
     return (
         <div>
-            <div>
-                <Navbarl />
-            </div>
             <div className={styles.container}>
                 <div className={styles.con}>
                     <div className={styles.left}>
@@ -20,7 +19,7 @@ const Addrf1 = () =>{
                             <ul>
                                 <div className={styles.inside}>
                                     <center>
-                                        <img src='/images/cimage.png'/>
+                                        <img src= {CameraImage} />
                                         <pre>   Name:     Elaisa Amon</pre>
                                         <pre>Course:   BET-COET</pre>
                                     </center>
@@ -29,12 +28,13 @@ const Addrf1 = () =>{
                         </div>
                         <div className={styles.spread}>
                             <Button variant='secondary'>Add</Button>
-                            <div className={styles.spread1}><a href='/Rf1'><Button variant='secondary'>Update</Button></a></div>
+                            <div className={styles.spread1}>
+                                <Link to='/dashboard-update-face'><Button variant='secondary'>Update</Button></Link></div>
                         </div>
                     </div>
                     <div className={styles.right}>
                         <ul>
-                            <img src='/images/multi.png'></img>
+                            <img src= {MultipleImages} ></img>
                         </ul>
                     </div>
                 </div>

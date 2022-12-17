@@ -1,6 +1,8 @@
 import styles from './Newa.module.css';
 import React from 'react';
 import Button from './Button.jsx';
+import NewAcountSidePic from '../images/Newa.png';
+import { Link } from 'react-router-dom';
 
 const Newa = () => {
     return (
@@ -27,15 +29,15 @@ const Newa = () => {
                         </div>
                         <div>
                             <ul>
-                                <div className={styles.log}><a href='/Log'><Button variant='primary'>Log In instead</Button></a></div>
-                                <div className={styles.prior}><a href='/Log'><Button>Submit</Button></a></div>
+                                <div className={styles.log}><Link to='/signin'><Button variant='primary'>Log In instead</Button></Link></div>
+                                <div className={styles.prior}><Link to='/signin'><Button>Submit</Button></Link></div>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className={styles.right}>
                     <div className={styles.right1}>
-                        <img src="/images/Newa.png"></img>
+                        <img src= {NewAcountSidePic} ></img>
                     </div>
                 </div>
             </div>

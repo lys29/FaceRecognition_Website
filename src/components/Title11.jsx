@@ -1,7 +1,6 @@
 import styles from './Title11.module.css';
-import Button from './Button.jsx';
-import Title2 from '../components/Title2.jsx';
-
+// import Button from './Button.jsx';
+import MarkPic from '../images/mark.png';
 const Title11 = () => {
     return (
         <div>
@@ -12,13 +11,11 @@ const Title11 = () => {
                     </div>
 
                     <div className={styles.right}>
-                        <img src='/images/mark.png'/>
+                        <img src={MarkPic} alt="Mark Pic"/>
                     </div>
                 </div>
             </div>
-            <div>
-                <Title2 />
-            </div>
+
         </div>
     );
 };

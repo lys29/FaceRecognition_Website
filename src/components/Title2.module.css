@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
 .container {
     background-color: white;
     align-items: stretch;
@@ -6,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     color: black;
-    height: 10px;
+    height: 5rem;
 
 }
 

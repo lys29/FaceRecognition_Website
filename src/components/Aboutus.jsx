@@ -1,11 +1,10 @@
 import styles from './Aboutus.module.css';
-import Title2 from './Title2';
 import AboutUs from "../images/aboutus.png";
 
-const Aboutus  = () => {
+const Aboutus  = () => { 
     return (
         <div>
-            <div className={styles.container}>
+            <div className={styles.aboutcontainer}>
                 <div className={styles.left}>
                     <h1>About Us</h1>
                     <div className={styles.left1}>
@@ -20,9 +19,6 @@ const Aboutus  = () => {
                 <div className={styles.right}>
                     <img src={AboutUs} alt=""></img>
                 </div>
-            </div>
-            <div>
-                <Title2 />
             </div>
         </div>
     )

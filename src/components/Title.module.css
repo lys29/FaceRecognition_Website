@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
 .container {
     background-color: white;
 }
@@ -23,7 +24,7 @@
     font-size: 128px;
     line-height: 15px;
     word-spacing: -25px;
-    font-family: inter, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 .container span {
@@ -47,7 +48,7 @@
 
 .container p {
     font-size: 20px;
-    font-family: inter, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 .t Button {

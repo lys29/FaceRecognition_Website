@@ -1,17 +1,22 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+.aboutcontainer {
     background-color: #523592;
     align-items: stretch;
     border:250px solid #523592;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:650px;
+    height:35vh;
+    gap: 7rem;
+    border-radius: 0px 0px 20px 20px;
     position:relative;
     margin-top: -400px;
 }
 
 .left {
     margin-left: -100px;
+    color: white;
 }
 
 .left1 pre {
