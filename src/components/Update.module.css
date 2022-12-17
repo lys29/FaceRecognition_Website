@@ -1,0 +1,130 @@
+.container {
+    background-color: #523592;
+    align-items: stretch;
+    border:250px solid #523592;
+    align-items: center;
+    justify-content: space-between;
+    height:1100px;
+    position:relative;    
+    margin-top: -400px;
+    display: flex;
+}
+
+.con {
+    margin-top: -150px;
+    display: flex;
+}
+
+.spread {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.spread input[type=left] {
+    background-color: white;
+    width: 360px;
+    height: 33px;
+    border-radius: 0px;
+    margin-left: 20px;
+    color: black;
+    font-size: 26px;
+}
+
+.spread p {
+    font-size: 26px;
+}
+
+.left h1 {
+    font-size: 35px;
+    margin-left: -100px;
+}
+
+.left {
+    margin-left: -100px;
+    width: 600px;
+}
+
+.right {
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.spread1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -50px;
+}
+
+.spread1 input[type=rightA] {
+    background-color: white;
+    width: 490px;
+    height: 33px;
+    border-radius: 0px;
+    margin-left: 20px;
+    color: black;
+    font-size: 26px;
+}
+
+.spread1 input[type=rightC] {
+    background-color: white;
+    width: 360px;
+    height: 33px;
+    border-radius: 0px;
+    margin-right: 130px;
+    color: black;
+    font-size: 26px;
+}
+
+.spread1 p {
+    font-size: 26px;
+}
+
+.fix { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload Button {
+    width: 200px;
+    height: 40px;
+    background-color: #67CDA2;
+    border-radius: 0px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.fix Button {
+    width: 100px;
+    height: 49px;
+    background-color: #67CDA2;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    margin-top: 200px;
+    cursor: pointer;
+}
+
+.clear Button {
+    margin-left: 300px;
+}
+
+.right img {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.spread select {
+    height: 100px;
+    background-color: white;
+    color: black;
+    height: 33px;
+    width: 360px;
+    font-size: 26px;
+}
