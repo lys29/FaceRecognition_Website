@@ -4,19 +4,20 @@
     border:250px solid #523592;
     align-items: center;
     justify-content: space-between;
-    height:1000px;
+    height:600px;
     position:relative;    
     margin-top: -400px;
 }
 
 .con {
-    margin-top: -230px;
+    margin-top: -150px;
     margin-left: -150px;
     display: flex;
 }
 
 .left h1{
     font-size: 40px;
+    color: white;
 }
 
 .spread {
@@ -25,6 +26,7 @@
     align-items: center;
     font-size: 26px;
     margin-left: 30px;
+    color: white;
 }
 
 .spread input {
@@ -66,6 +68,7 @@
     font-size: 26px;
     margin-left: -50px;
     margin-top: 50px;
+    color: white;
 }
 
 .inside img {

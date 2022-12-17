@@ -4,14 +4,14 @@
     border:250px solid #523592;
     align-items: center;
     justify-content: space-between;
-    height:1100px;
+    height:600px;
     position:relative;    
     margin-top: -400px;
     display: flex;
 }
 
 .con {
-    margin-top: -150px;
+    margin-top: -100px;
     display: flex;
 }
 
@@ -35,11 +35,13 @@
 
 .spread p {
     font-size: 26px;
+    color: white;
 }
 
 .left h1 {
     font-size: 35px;
     margin-left: -100px;
+    color: white;
 }
 
 .left {
@@ -81,6 +83,7 @@
 
 .spread1 p {
     font-size: 26px;
+    color: white;
 }
 
 .fix { 

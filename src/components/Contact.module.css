@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    color: white;
 }
 
 .left {
@@ -103,4 +104,5 @@
     cursor: pointer;
     margin-top: 100px;
     margin-left: 400px;
+    color: white;
 }

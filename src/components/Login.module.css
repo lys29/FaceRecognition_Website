@@ -27,8 +27,8 @@
     float: right;
     background-color: white;
     border:53px solid white;
-    height: 1024px;
-    width: 885px;
+    height: 924px;
+    width: 685px;
 }
 
 .right1 {
@@ -63,4 +63,5 @@
 
 .left h1 {
     font-size: 46px;
+    color: white;
 }
