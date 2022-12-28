@@ -19,13 +19,13 @@ const Newa = () => {
                             <input type="Text" placeholder="Email"></input>
                         </div>
                         <div>
+                            <input type="Text" placeholder="Username"></input>
+                        </div>
+                        <div>
                             <input type="Text" placeholder="Password"></input>
                         </div>
                         <div>
-                            <input type="Text" placeholder="Confirm Password"></input>
-                        </div>
-                        <div>
-                            <input type="Day" placeholder="Birthday 00/00/0000"></input>
+                            <input type="Day" placeholder="Confirm Password"></input>
                         </div>
                         <div>
                             <ul>
