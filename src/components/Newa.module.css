@@ -58,8 +58,8 @@
     color: white;
 }
 
-.container input[type=Day] {
-    width: 334px;
+.container input[type=Cpass] {
+    width: 539px;
     border: 0px;
     border-bottom: 5px solid #67CDA2;
     height: 45px;
